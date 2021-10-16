@@ -1,0 +1,19 @@
+h3{
+    font-size: 25px;
+}
+.btn-success:hover{
+    background-color: red;
+}
+canvas{
+    animation-name: jaune;
+    animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes jaune{
+   0%{box-shadow: 1px 1px 38px red;}
+   16%{box-shadow: 1px 1px 38px silver;}
+   32%{box-shadow: 1px 1px 38px blue;}
+   48%{box-shadow: 1px 1px 38px gold;}
+   64%{box-shadow: 1px 1px 38px rgb(66, 66, 50);}
+   80%{box-shadow: 1px 1px 38px green;}
+}
